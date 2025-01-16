@@ -1,6 +1,7 @@
 import HomeComponents from "./components/HomeComponents"
 import HomeSwiperComponents from "./components/HomeSwiperComponents"
 import NavbarComponents from "./components/NavbarComponents"
+import ServiceComponents from "./components/ServiceComponents"
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
       <NavbarComponents/>
       <HomeComponents/>
       <HomeSwiperComponents/>
+      <ServiceComponents/>
     </div>
   )
 }
