@@ -31,7 +31,7 @@ const NavbarComponents = () => {
       </div>
       {/* navbar for mobile */}
       <div
-        className={`flex md:hidden flex-col items-center justify-center fixed top-0  bg-green-secondary min-h-full w-full z-10 gap-6 ease-in-out duration-500 ${
+        className={`bg-white flex md:hidden flex-col items-center justify-center fixed top-0  bg-green-secondary min-h-full w-full z-10 gap-6 ease-in-out duration-500 ${
           openMenu ? "-right-full" : "right-0"
         }`}
       >
@@ -49,13 +49,13 @@ const NavbarComponents = () => {
         <div className="btn-navbar flex flex-col gap-3 items-center justify-center">
           <a
             href=""
-            className="font-semibold text-lg border-2 w-52 text-center py-1 rounded-md border-green-primary text-green-primary ease-in-out duration-300 hover:bg-green-primary hover:text-white"
+            className="font-semibold text-lg border-2 w-52 text-center py-1 rounded-2xl border-green-primary text-green-primary ease-in-out duration-300 hover:bg-green-primary hover:text-white"
           >
             Login
           </a>
           <a
             href=""
-            className="font-semibold text-lg bg-green-primary w-52 text-center py-1 rounded-md text-white border-2 border-green-primary ease-in-out duration-300 hover:bg-green-primary hover:text-white"
+            className="font-semibold text-lg bg-green-primary w-52 text-center py-1 rounded-2xl text-white border-2 border-green-primary ease-in-out duration-300 hover:bg-green-primary hover:text-white"
           >
             Sign Up
           </a>
@@ -91,14 +91,14 @@ const NavbarComponents = () => {
         <div className="flex gap-4">
           <a
             href=""
-            className="font-semibold text-sm border-2 text-center py-2 px-6 rounded-md border-green-primary text-green-primary
+            className="font-semibold text-sm border-2 text-center py-3 px-7 rounded-2xl border-green-primary text-green-primary
             ease-in-out duration-300 hover:bg-green-primary hover:text-white"
           >
             Login
           </a>
           <a
             href=""
-            className="font-semibold text-sm bg-green-primary text-center py-2 px-6 rounded-md text-white border-2 border-green-primary
+            className="font-semibold text-sm bg-green-primary text-center py-3 px-7 rounded-2xl text-white border-2 border-green-primary
             ease-in-out duration-300 hover:bg-white hover:text-green-primary"
           >
             Sign Up

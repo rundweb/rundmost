@@ -5,12 +5,15 @@ export default {
     extend: {
       colors: {
         "black-primary": "#282930",
-        "black-secondary": "#142F32",
-        "yellow-light": "#E3FFCC",
+        "black-secondary": "#153F45",
+        "yellow-light": "#E2FFC8",
         "gray-primary": "#777C90",
         "white-bg": "#F5F7F9",
         "green-primary":"#19A580"
       },
+      backgroundImage: {
+        'home': "url('/src/assets/images/hombg.jpg')",
+      }
     },
   },
   plugins: [],
