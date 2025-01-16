@@ -22,10 +22,10 @@ const HomeSwiperComponents = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="bg-home h-80 rounded-2xl bg-cover"></div>
+            <div className="bg-home h-96 rounded-2xl bg-cover"></div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-black-secondary h-80 rounded-2xl flex flex-col items-center justify-center gap-2 w-full text-center">
+            <div className="bg-black-secondary h-96 rounded-2xl flex flex-col items-center justify-center gap-2 w-full text-center">
               <h1 className="text-white text-4xl font-bold">100+</h1>
               <p className="text-white text-lg font-normal w-3/4">
                 Our Esteemed Client and Partners
@@ -33,7 +33,7 @@ const HomeSwiperComponents = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-white h-80 rounded-2xl bg-cover p-10 flex flex-col gap-3 justify-around">
+            <div className="bg-white h-96 rounded-2xl bg-cover p-10 flex flex-col gap-3 justify-around">
               <MdOutlineSpaceDashboard className="bg-yellow-light text-black-secondary text-5xl rounded-md p-2" />
               <p className="flex items-center gap-3 text-black-secondary font-semibold">
                 Total Projects <FaSquareArrowUpRight />{" "}
@@ -50,7 +50,7 @@ const HomeSwiperComponents = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-yellow-light h-80 rounded-2xl flex flex-col items-center justify-center gap-2 w-full text-center">
+            <div className="bg-yellow-light h-96 rounded-2xl flex flex-col items-center justify-center gap-2 w-full text-center">
               <h1 className="text-black-secondary text-4xl font-bold">6+</h1>
               <p className="text-black-secondary text-lg font-normal w-3/4">
                 Years Of Dedicated Serviced
