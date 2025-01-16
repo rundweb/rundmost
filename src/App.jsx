@@ -1,3 +1,4 @@
+import BenefitsComponents from "./components/BenefitsComponents"
 import HomeComponents from "./components/HomeComponents"
 import HomeSwiperComponents from "./components/HomeSwiperComponents"
 import NavbarComponents from "./components/NavbarComponents"
@@ -11,6 +12,7 @@ const App = () => {
       <HomeComponents/>
       <HomeSwiperComponents/>
       <ServiceComponents/>
+      <BenefitsComponents/>
     </div>
   )
 }
