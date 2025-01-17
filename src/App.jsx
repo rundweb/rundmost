@@ -1,8 +1,10 @@
 import BenefitsComponents from "./components/BenefitsComponents"
+import ContactComponents from "./components/ContactComponents"
 import HomeComponents from "./components/HomeComponents"
 import HomeSwiperComponents from "./components/HomeSwiperComponents"
 import NavbarComponents from "./components/NavbarComponents"
 import PlantComponents from "./components/PlantComponents"
+import PowerComponents from "./components/PowerComponents"
 import ServiceComponents from "./components/ServiceComponents"
 
 
@@ -15,6 +17,8 @@ const App = () => {
       <ServiceComponents/>
       <BenefitsComponents/>
       <PlantComponents/>
+      <PowerComponents/>
+      <ContactComponents/>
     </div>
   )
 }
