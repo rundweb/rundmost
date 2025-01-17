@@ -2,6 +2,7 @@ import BenefitsComponents from "./components/BenefitsComponents"
 import HomeComponents from "./components/HomeComponents"
 import HomeSwiperComponents from "./components/HomeSwiperComponents"
 import NavbarComponents from "./components/NavbarComponents"
+import PlantComponents from "./components/PlantComponents"
 import ServiceComponents from "./components/ServiceComponents"
 
 
@@ -13,6 +14,7 @@ const App = () => {
       <HomeSwiperComponents/>
       <ServiceComponents/>
       <BenefitsComponents/>
+      <PlantComponents/>
     </div>
   )
 }
