@@ -16,7 +16,7 @@ const BenefitsComponents = () => {
     },
   ];
   return (
-    <div className="p-5 py-10 max-w-7xl m-auto w-full flex flex-col gap-10 md:flex-row md:items-center">
+    <div className="p-5 py-16 max-w-7xl m-auto w-full flex flex-col gap-10 md:flex-row md:items-center">
       <div className="bg-slate-100 p-5 h-max rounded-2xl flex items-center justify-center w-full">
         <img src={benefit} alt="" />
       </div>
