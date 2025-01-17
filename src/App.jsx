@@ -7,7 +7,10 @@ import NavbarComponents from "./components/NavbarComponents"
 import PlantComponents from "./components/PlantComponents"
 import PowerComponents from "./components/PowerComponents"
 import ServiceComponents from "./components/ServiceComponents"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const App = () => {
   return (

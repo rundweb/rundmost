@@ -40,7 +40,7 @@ const ServiceComponents = () => {
   return (
     <div className="bg-black-secondary mt-5 md:mt-10">
       <div className="px-5 max-w-7xl gap-10 m-auto py-12 flex flex-col items-center w-full md:py-20">
-        <div className="flex flex-col gap-2 text-center items-center">
+        <div className="flex flex-col gap-2 text-center items-center" data-aos="zoom-in" data-aos-duration="1500">
           <h1 className="text-white font-bold text-2xl md:text-4xl md:w-3/5">
             Eficient and integrated manufacturing services
           </h1>
@@ -53,6 +53,7 @@ const ServiceComponents = () => {
             <div
               key={item.title}
               className="bg-service shadow-lg  w-full p-7 h-60  flex flex-col justify-between sm:w-72 lg:w-96"
+               data-aos="zoom-in-left" data-aos-duration="1500"
             >
               <item.icon className="text-white text-5xl" />
               <div className="flex flex-col gap-1">

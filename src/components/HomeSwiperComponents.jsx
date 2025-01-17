@@ -9,7 +9,7 @@ import { Autoplay } from "swiper/modules";
 const HomeSwiperComponents = () => {
   return (
     <div className="p-5 max-w-7xl m-auto w-full">
-      <div className="md:hidden -mt-5">
+      <div className="md:hidden md:-mt-5" data-aos="zoom-in" data-aos-duration="1500">
         <Swiper
           spaceBetween={30}
           grabCursor={true}
@@ -60,7 +60,7 @@ const HomeSwiperComponents = () => {
         </Swiper>
       </div>
 
-      <div className="md:flex flex-row gap-5 items-end hidden -mt-10">
+      <div className="md:flex flex-row gap-5 items-end hidden -mt-10" data-aos="zoom-in" data-aos-duration="1500">
         <div className="bg-home h-80 rounded-2xl bg-cover w-full"></div>
         <div className="bg-black-secondary h-64 rounded-2xl flex flex-col items-center justify-center gap-2 w-full text-center">
           <h1 className="text-white text-4xl font-bold">100+</h1>

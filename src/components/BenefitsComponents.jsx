@@ -17,10 +17,12 @@ const BenefitsComponents = () => {
   ];
   return (
     <div className="p-5 py-16 max-w-7xl m-auto w-full flex flex-col gap-10 md:flex-row md:items-center">
-      <div className="bg-slate-100 p-5 h-max rounded-2xl flex items-center justify-center w-full">
+      <div className="bg-slate-100 p-5 h-max rounded-2xl flex items-center justify-center w-full" 
+       data-aos="zoom-in" data-aos-duration="1500">
         <img src={benefit} alt="" />
       </div>
-      <div className="flex flex-col gap-2 w-full lg:gap-4">
+      <div className="flex flex-col gap-2 w-full lg:gap-4"
+       data-aos="zoom-in-left" data-aos-duration="1500">
         <h1 className="text-black-secondary font-bold text-2xl
         lg:text-4xl">
           Key Benefits of our System for Your Businness Efficiencys
